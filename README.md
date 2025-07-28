@@ -35,13 +35,13 @@
      + Write logic to automate trade execution (if API access allows).
      + Set up scheduled execution (daily/hourly) using task schedulers.
 ## Challenges
-**1. Technical Challenges**
+**- 1. Technical Challenges**
    + Limited experience using financial APIs to retrieve real+time data.
    + Lack of familiarity with time+series processing and adjusted prices.
    + No prior hands+on experience with professional backtesting frameworks like Backtrader or Zipline.
-**2. Strategy and Logic**
+**- 2. Strategy and Logic**
    + Difficulty in selecting and tuning strategies that fit the market environment.
    + Need deeper understanding of technical indicators and risk management.
-**3. Project Development Process**
+**- 3. Project Development Process**
    + Not yet proficient in modular project structuring and scalable code design.
    + Limited experience in testing (unit tests) and implementing logging/debugging workflows.
