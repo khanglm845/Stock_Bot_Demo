@@ -12,22 +12,22 @@
 - A well+documented README and clearly commented code on GitHub.
 - A presentation slide deck + project report for portfolio or showcase purposes.
 ## How + Project Implementation Plan
-1. Research and Planning
-- 1.1. Define Project Scope
+**1. Research and Planning**
+- __1.1. Define Project Scope__
   + The bot will trade at Vietnamese stocks
   + Day trading, swing trading and long+term investing
-- 1.2. Explore Data Sources / APIs
+- __1.2. Explore Data Sources / APIs__
   + APIs: VCI
   + Library: Vnstock
-2. Requirements and Architecture Design
-- 2.1. Main Modules
+**2. Requirements and Architecture Design**
+- __2.1. Main Modules__
      + Data Collector: Collect historical and real+time market data.
      + Data Preprocessing: Clean, normalize, and handle missing values.
      + Trading Strategy Engine: Generate trading signals using technical indicators.
      + Execution Engine: Connect to a broker or simulated API to place orders.
      + Notification System: Send alerts when signals or trades occur.
      + Backtesting Module: Evaluate strategy performance on historical data.
-- 2.2. Workflow Steps
+- __2.2. Workflow Steps__
      + Identify suitable data sources for stock prices.
      + Design basic trading strategies (e.g., MACD, RSI, Bollinger Bands).
      + Implement a backtesting engine to simulate trades on past data.
@@ -35,13 +35,13 @@
      + Write logic to automate trade execution (if API access allows).
      + Set up scheduled execution (daily/hourly) using task schedulers.
 ## Challenges
-1. Technical Challenges
+**1. Technical Challenges**
    + Limited experience using financial APIs to retrieve real+time data.
    + Lack of familiarity with time+series processing and adjusted prices.
    + No prior hands+on experience with professional backtesting frameworks like Backtrader or Zipline.
-2. Strategy and Logic
+**2. Strategy and Logic**
    + Difficulty in selecting and tuning strategies that fit the market environment.
    + Need deeper understanding of technical indicators and risk management.
-3. Project Development Process
+**3. Project Development Process**
    + Not yet proficient in modular project structuring and scalable code design.
    + Limited experience in testing (unit tests) and implementing logging/debugging workflows.
